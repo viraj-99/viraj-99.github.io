@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+  background-color: #f6f6f6
+}
+#main{
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  box-shadow: 5px 10px 30px (255,255,255,0.5);
+  z-index:1; 
+}
+.logo img{
+  margin:0px;
+  height: 100px;
+
+}
+.menu{
+  list-style: none;
+  display:flex;
+}
+.menu li a{
+  height: 40px;
+  line-height: 45px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size:1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: whitesmoke;
+}
+
+a{
+  text-decoration: none;
+}
+.hey{
+  margin:10px;
+  color: red;
+  font-weight: 500;
+  font-size: 0.9em;
+  border-bottom: 0px solid red;
+
+}
+.image{
+  width: 500px;
+  height:500px;
+   
+}
+.image img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.Content{
+  display: flex;
+  width:90%;
+  justify-content: space-around;
+  align-items: center;
+  position:absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%)
+
+}
+.main{
+  width:500px;
+}
+.main h1{
+  font-size: 3.5em;
+  color:red;
+  margin:0px 0px 0px 10px;
+  line-height: 60px;
+}
+.main-text p{
+  color: grey;
+}
+.Explore{
+  width:190px;
+  height:44px ;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color:red;
+  background-color: black;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px (255,255,255,0.5);
+}
+.Explore:hover{
+  color:whitesmoke;
+  background-color:red;
+  transistion:all ease 0.2s;
+}
+.menu li a:hover{
+  background-color:red;
+  color:black;
+  box-shadow: 5px 10px 30px (255,255,255,0.5);
+  transistion:all ease 0.2s;
+}
+.hey:hover{
+  color:black;
+  background-color: white;
+}
